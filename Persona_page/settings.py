@@ -25,12 +25,12 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = config('DJANGO_DEBUG', default=False, cast=bool)
-#DEBUG = os.getenv('DEBUG', 'False') == 'True'
-DEBUG = True
+DEBUG = os.getenv('DEBUG', 'False') == 'True'
+#DEBUG = True
 
 
 # ALLOWED_HOSTS should include your domain or IP address for deployment
-ALLOWED_HOSTS = ['personapage-production.up.railway.app', 'www.personapage-production.up.railway.app']
+ALLOWED_HOSTS = ["*"]
 
 # Application definition
 
@@ -125,12 +125,12 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-# CSRF settings for production
-# CSRF_COOKIE_SECURE = True  # Use True if using HTTPS
-# CSRF_COOKIE_HTTPONLY = True
-# CSRF_TRUSTED_ORIGINS = [
-#     'https://persona_page-production.up.railway.app',
-# ]
+CSRF settings for production
+ CSRF_COOKIE_SECURE = True  # Use True if using HTTPS
+ CSRF_COOKIE_HTTPONLY = True
+ CSRF_TRUSTED_ORIGINS = [
+     'https://persona_page-production.up.railway.app',
+]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
