@@ -25,8 +25,8 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = config('DJANGO_DEBUG', default=False, cast=bool)
-DEBUG = os.getenv('DEBUG', 'False') == 'True'
-
+#DEBUG = os.getenv('DEBUG', 'False') == 'True'
+DEBUG = True
 
 
 # ALLOWED_HOSTS should include your domain or IP address for deployment
