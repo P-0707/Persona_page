@@ -126,9 +126,9 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 #CSRF settings for production
- CSRF_COOKIE_SECURE = True  # Use True if using HTTPS
- CSRF_COOKIE_HTTPONLY = True
- CSRF_TRUSTED_ORIGINS = [
+CSRF_COOKIE_SECURE = True  # Use True if using HTTPS
+CSRF_COOKIE_HTTPONLY = True
+CSRF_TRUSTED_ORIGINS = [
      'https://persona_page-production.up.railway.app',
 ]
 
