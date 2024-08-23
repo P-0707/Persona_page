@@ -30,7 +30,7 @@ DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
 
 # ALLOWED_HOSTS should include your domain or IP address for deployment
-ALLOWED_HOSTS = ['persona_page-production.up.railway.app', 'personapage-production.up.railway.app', 'www.personapage-production.up.railway.app', 'www.persona_page-production.up.railway.app', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['personapage-production.up.railway.app', 'www.personapage-production.up.railway.app']
 
 # Application definition
 
