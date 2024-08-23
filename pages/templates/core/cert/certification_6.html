@@ -1,0 +1,38 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+
+{% block title %}Excel Basics for Data Analysis{% endblock %}
+
+{% block content %}
+<section class="certification-detail-section">
+    <div class="container2">
+        <h1>Excel Basics for Data Analysis</h1>
+        <img src="{% static 'images/user/6.png' %}" alt="Excel Basics for Data Analysis" class="certification-image">
+        
+        <p><strong style="color: #800020;">Issued By:</strong> <strong>IBM</strong></p>
+        
+        <p><strong style="color: #800020;">Description:</strong></p>
+        <p>
+            I have completed the <strong>"Excel Basics for Data Analysis"</strong> course offered by <strong>IBM</strong> on the Coursera platform. This course provided a solid foundation in utilizing Microsoft Excel for data analysis tasks.
+
+            <br><br>
+
+            Key areas covered in the course include:
+
+            <br><br>
+
+            - <strong>Fundamental Excel functions and formulas</strong>, including SUM, AVERAGE, and VLOOKUP. <br>
+            - <strong>Data visualization techniques</strong> using charts and graphs to present insights effectively. <br>
+            - <strong>Data cleaning and transformation</strong> to prepare datasets for analysis. <br>
+            - <strong>Pivot tables</strong> and <strong>pivot charts</strong> for summarizing and analyzing complex data. <br>
+            - <strong>Advanced Excel features</strong>, such as conditional formatting and data validation, to enhance data analysis capabilities. 
+
+            <br><br>
+
+            This course not only strengthened my skills in using Excel for various data analysis tasks but also improved my ability to interpret and present data insights in a clear and actionable manner. The practical exercises and real-world examples provided valuable hands-on experience, making it easier to apply the knowledge to real data scenarios.
+        </p>
+        
+        <a href="{% url 'pages:home' %}" class="view-details-btn">Back to Home</a>
+    </div>
+</section>
+{% endblock %}

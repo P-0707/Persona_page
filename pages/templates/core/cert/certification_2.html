@@ -1,0 +1,26 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+
+{% block title %}Cybersecurity Essentials{% endblock %}
+
+{% block content %}
+<section class="certification-detail-section">
+    <div class="container2">
+        <h1>Cybersecurity Essentials</h1>
+        <img src="{% static 'images/user/2.png' %}" alt="Cybersecurity Essentials" class="certification-image">
+        
+        <p><strong style="color: #800020;">Issued By:</strong> <strong>Cisco Networking Academy</strong></p>
+        
+        <p><strong style="color: #800020;">Description:</strong></p>
+        <p>
+            I successfully completed the <strong>Cybersecurity Essentials</strong> course offered by <strong>Cisco Networking Academy</strong> on <strong>February 20, 2023</strong>. This course provided a thorough introduction to critical <strong>cybersecurity concepts and practices</strong> necessary for safeguarding digital assets and networks. Throughout the program, I developed a solid understanding of the <strong>tactics, techniques, and procedures</strong> employed by cybercriminals.
+
+            <br><br>
+            
+            I learned to articulate the principles of <strong>confidentiality, integrity, and availability</strong> in relation to data states and cybersecurity measures. The course also covered the <strong>technologies, products, and procedures</strong> essential for protecting data confidentiality, ensuring data integrity, and maintaining high availability. Additionally, I gained insights into how cybersecurity professionals utilize various <strong>technologies, processes, and procedures</strong> to defend network components effectively. The program also addressed the <strong>purpose of cybersecurity laws</strong> and their implications.
+        </p>
+        
+        <a href="{% url 'pages:home' %}" class="view-details-btn">Back to Home</a>
+    </div>
+</section>
+{% endblock %}

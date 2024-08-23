@@ -1,0 +1,18 @@
+<!-- partials/footer.html -->
+{% load static %}
+
+<footer>
+    <div class="footerCol">
+        <div class="container">
+            <ul class="socialCol">
+                <li><a href="https://github.com/P-0707" target="_blank" rel="noopener noreferrer"><img src="{% static 'images/github.jpg' %}" alt="GitHub profile" class="social-img"></a></li>
+                <li><a href="https://www.linkedin.com/in/pavani-bobbulolu-782619279/" target="_blank" rel="noopener noreferrer"><img src="{% static 'images/Linkedin.jpg' %}" alt="Linkedin profile" class="social-img"></a></li>
+                <li><a href="https://www.credly.com/users/pavani-bobbulolu" target="_blank" rel="noopener noreferrer"><img src="{% static 'images/credly.png' %}" alt="Credly badges" class="social-img"></a></li>
+            </ul>
+            <div class="copyrightCol">
+                <p>Copyright &copy; {% now 'Y' %} All rights reserved. <br>
+                Designed by Pavani Bobbulolu</p>
+            </div>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,38 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+
+{% block title %}Django Student Database Management System{% endblock %}
+
+{% block content %}
+<section class="project-detail-section">
+    <div class="container3">
+        <h1>Django Student Database Management System</h1>
+        <img src="{% static 'images/user/p1.png' %}" alt="Django Student Database Management System" class="proj-img">
+        <h2>Description!</h2>
+        <p>
+            The <strong>Django Student Database Management System</strong> is a foundational web application meticulously crafted for managing and displaying comprehensive academic information, including <strong>student records, course details, and instructor profiles</strong>. Developed as an introductory project in Django, this application offers a clear, straightforward interface designed to streamline the organization and retrieval of essential educational data.
+
+            <br><br>
+
+            The core functionality revolves around a well-structured <strong>database</strong> that stores critical information such as <strong>student IDs, names, email addresses, and departments</strong>. Users can easily navigate through a list of students, where each entry includes a <strong>"Details"</strong> button. Clicking this button reveals more detailed information about the student, including <strong>contact details, date of birth</strong>, and a list of enrolled courses. Each course is linked via a clickable button that leads to an in-depth page featuring the <strong>course description, course ID</strong>, and information about the <strong>instructor responsible for the course</strong>.
+            
+            <br><br>
+
+            The <strong>instructor details page</strong> is equally informative, providing users with access to the instructor's <strong>name, email address</strong>, and <strong>department affiliation</strong>. This interconnected structure of student, course, and instructor information showcases the application’s ability to manage <strong>relational data effectively</strong>, making it a valuable tool for small academic institutions or training centers.
+            
+            <br><br>
+
+            While the current version of the Django Student Database Management System offers a functional and user-friendly interface, there are numerous opportunities for <strong>future enhancements</strong>. Potential upgrades include the addition of <strong>navigation buttons</strong> for easier access to different sections of the application, <strong>search functionality</strong> to quickly locate specific students, courses, or instructors, and advanced <strong>data management tools</strong> to support more complex academic environments. These improvements would not only enrich the user experience but also extend the application’s capabilities, making it suitable for larger-scale implementations.
+            
+            <br><br>
+
+            This project highlights a solid understanding of Django’s core features, including <strong>model relationships</strong> and <strong>templates</strong>.
+
+            <br><br>
+
+            You can explore the source code for this project on 
+            <a href="https://github.com/P-0707/Django---Student-database" target="_blank" rel="noopener noreferrer">GitHub</a>.
+        </p>
+    </div>
+</section>
+{% endblock %}

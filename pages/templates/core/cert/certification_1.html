@@ -1,0 +1,26 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+
+{% block title %}Internship Program in Data Science with Python{% endblock %}
+
+{% block content %}
+<section class="certification-detail-section">
+    <div class="container2">
+        <h1>Internship Program in Data Science with Python</h1>
+        <img src="{% static 'images/user/1.png' %}" alt="Internship Program in Data Science with Python" class="certification-image">
+        
+        <p><strong style="color: #800020;">Issued By:</strong> <strong>Personifwy and Coincent Collaborating</strong></p>
+        
+        <p><strong style="color: #800020;">Description:</strong></p>
+        <p>
+            I completed an internship program in <strong>Data Science with Python</strong> from <strong>March 10, 2023</strong>, to <strong>May 10, 2023</strong>, conducted by <strong>Personifwy and Coincent Collaborating</strong>. During this internship, I gained hands-on experience in data science, focusing on <strong>Python programming</strong> and its application in <strong>data analysis</strong>. I worked on <strong>real-world projects</strong>, which helped me develop a strong understanding of <strong>data manipulation, statistical analysis, and machine learning techniques</strong>.
+            
+            <br><br>
+
+            The program enhanced my ability to tackle complex data challenges effectively, demonstrated my <strong>dedication and hard work</strong>, and significantly contributed to my <strong>practical knowledge in the field</strong>. My performance throughout the internship was recognized for my <strong>commitment, diligence, and problem-solving capabilities</strong>.
+        </p>
+        
+        <a href="{% url 'pages:home' %}" class="view-details-btn">Back to Home</a>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,29 @@
+<!-- core/contact.html -->
+{% extends 'partials/base.html' %}
+{% load static %}
+
+{% block title %}Contact{% endblock %}
+
+{% block content %}
+<section class="contact-section">
+    <div class="container">
+        <h2>Contact Me</h2>
+        
+        {% if messages %}
+            <div class="alert-container">
+                {% for message in messages %}
+                    <div class="alert {{ message.tags }}">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+        
+        <form action="{% url 'pages:contact' %}" method="post" class="contact-form">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </div>
+</section>
+{% endblock %}

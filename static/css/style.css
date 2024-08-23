@@ -1,0 +1,527 @@
+
+body{
+    background-color: #f9f9f9; /* Light background color */
+    font-family: 'Times New Roman', Times, serif;
+    color: #333; /* Default text color for readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* main page styling */
+/* Intro Section */
+.home-class{
+    margin-left: 126px;
+    margin-right: 126px;
+}
+
+.intro-section {
+    padding: 60px 20px;
+}
+
+.intro-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.intro-text {
+    max-width: 66%;
+}
+
+.intro-text h1 {
+    font-size: 52px;
+    color: #800020;;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.intro-text p {
+    text-align: justify;
+    font-size: 1.2em;
+    color: #333333; /* Slightly lighter text color for paragraph */
+
+}
+
+.download-btn {
+    display: inline-block; /* Ensure the button is treated as a block element */
+    padding: 10px 20px; /* Add padding for a larger clickable area */
+    background-color: black; /* Background color */
+    color: gold; /* Text color */
+    border: 2px solid silver; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    text-decoration: none; /* Remove underline if it's a link */
+    font-size: 16px; /* Font size */
+    text-align: center; /* Center the text */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Smooth transition */
+}
+
+.download-btn:hover {
+    background-color: gold; /* Change background on hover */
+    color: black; /* Change text color on hover */
+    border-color: black; /* Change border color on hover */
+}
+
+.intro-image {
+    max-width: 45%;
+}
+
+.intro-img {
+    width: 320px;
+    height: 300px;
+    border-radius: 8px; /* Rounded corners for the image */
+    border: 1px solid silver;
+    margin-top: 0px;
+}
+
+/* Skills Section */
+.skills-section {
+    padding: 40px 20px;
+}
+
+.skills-section h2 {
+    font-size: 43px;
+    color: #800020; /* Dark text color */
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.skills-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.coding-skills,
+.non-coding-skills {
+    width: 50%;
+}
+
+.coding-skills h3,
+.non-coding-skills h3 {
+    font-size: 36px;
+    color: #006666; /* Dark text color */
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.coding-skills ul,
+.non-coding-skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.coding-skills li,
+.non-coding-skills li {
+    font-size: 19px;
+    color: #333333; /* Slightly lighter text color for list items */
+}
+
+/* Certifications Section Styling */
+.certifications-section1 {
+    padding: 40px 20px;
+}
+
+.certifications-section1 h2 {
+    font-size: 43px;
+    color: #800020; /* Dark text color */
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 4 columns per row */
+    gap: 40px; /* Space between grid items */
+}
+
+.certification-item {
+    background-color: #fff; /* White background for items */
+    padding: 15px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+}
+
+.certification-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.certification-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Rounded corners for image */
+    max-height: 150px; /* Set a max height for images */
+    object-fit: cover; /* Cover the area of the box */
+}
+
+.certification-content h3 {
+    font-size: 20px;
+    color: #006666; /* Dark text color for title */
+    margin: 10px 0; /* Margin around the title */
+    font-weight: bold;
+}
+
+.certification-content p {
+    color: gray; /* Darker gray text for description */
+    font-size: 16px;
+    margin-bottom: 15px; /* Space below the description */
+}
+
+.view-details-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #fff; /* White text color */
+    background-color: #000; /* Black background color */
+    border-radius: 4px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-size: 14px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.view-details-btn:hover {
+    background-color: #555; /* Slightly lighter background on hover */
+}
+
+
+/* certification details styling */
+.certifcation-detail-section {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container2{
+    padding: 20px 90px;
+    margin: 20px 90px;
+}
+
+.container2 h1{
+    font-size: 38px;
+    color:#006666;
+    font-weight: bold;
+}
+
+.certification-image{
+    margin-top: 7px;
+    width: 70%;
+    height: 40%;
+}
+
+.container2 p{
+    font-size: 20px;
+    margin: 16px;
+    color: black;
+    text-align: justify;
+}
+
+
+/* Footer Styling */
+footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px, 0;
+    height: 180px;
+    border: 2px solid gold;
+}
+
+.footerCol .container {
+    max-width: 1200px; /* Max width of the content */
+    margin: 0 auto; /* Center content horizontally */
+    display: flex; /* Flexbox for alignment */
+    flex-direction: column; /* Column layout for smaller screens */
+    align-items: center; /* Center align items */
+}
+
+.socialCol {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 20px 0; /* Space above and below social icons */
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: center; /* Center-align the icons */
+}
+
+.socialCol li {
+    margin: 0 10px; /* Space between social icons */
+}
+
+.socialCol a {
+    display: inline-block; /* Ensure proper spacing around links */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.socialCol a:hover {
+    transform: scale(1.1); /* Slightly enlarge icons on hover */
+}
+
+.social-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+    border: 2px solid white; /* White border around icons */
+}
+
+.copyrightCol {
+    margin-top: 0px; /* Space above the copyright text */
+    font-size: 20px; /* Smaller font size */
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .footerCol .container {
+        flex-direction: column; /* Row layout for larger screens */
+    }
+} 
+/* complete footer */
+
+
+/* navbar */
+.logo-img{
+    width: 100px;
+    height: 40px;
+    margin-bottom: 18px;
+
+}
+
+.navbarCol {
+    background-color: black; 
+    padding: 10px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    border: 2px solid gold;
+    height: 88px;
+}
+
+.navCol ul{
+    list-style: none;
+    display: flex;
+    padding: 10px ;
+    justify-content: flex-end;
+
+}
+
+.navCol li{
+    margin: 10px;
+}
+
+.navCol a{
+    text-decoration: none;
+    color:  gold;
+}
+
+.navbarCol a:hover,
+.navbarCol a:active {
+    color: #00B2FF; /* Electric Blue */
+}
+/* complete navbar */
+
+
+/* Contact Page Styling */
+.contact-section {
+    padding: 40px 20px;
+    color: navy; /* Dark text color for readability */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color:black; /* Dark text color */
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f0f0f0; /* White background for form */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners for the form */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid navy; /* Light border color */
+    border-radius: 6px; /* Rounded corners for inputs */
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+.submit-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: gold; /* White text color */
+    background-color: #333; /* Dark background color */
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.submit-btn:hover {
+    background-color: gold; /* Change background on hover */
+    color: black; /* Change text color on hover */
+    border-color: black; /* Change border color on hover */
+}
+
+/* Add to your CSS file */
+.alert-container {
+    margin-bottom: 20px;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.alert.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.alert.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+/* complete contact */
+
+
+/* Portfolio Page */
+.portfolio-section {
+    padding: 40px 20px;
+    color: #333; /* Dark text color for readability */
+}
+
+.portfolio-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 43px;
+    color: black; /* Dark text color */
+    font-weight: bold;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid layout */
+    gap: 26px; /* Space between grid items */
+}
+
+.portfolio-item {
+    background-color: #fff; /* White background for each portfolio item */
+    padding: 15px;
+    border-radius: 16px; /* Rounded corners for items */
+    box-shadow: 0 2px 4px navy; /* Subtle shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow on hover */
+}
+
+.portfolio-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly deeper shadow on hover */
+}
+
+.portfolio-image img {
+    width: 330px;
+    height: 220px;
+    border-radius: 8px; /* Rounded corners for image */
+}
+
+
+.portfolio-details {
+    margin-top: 15px;
+}
+
+.portfolio-details h3 {
+    margin-top: 0;
+    color: #333; /* Dark text color */
+    font-weight: bold;
+}
+
+.portfolio-details p {
+    font-size: 16px;
+    color: #666; /* Gray text color */
+}
+
+.limited-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* Number of lines to show */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.view-details-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    color: gold; /* White text color */
+    background-color: #333; /* Dark background color */
+    border: 1px solid silver;
+    border-radius: 7px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-size: 14px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.view-details-btn:hover {
+    background-color: gold; /* Change background on hover */
+    color: black; /* Change text color on hover */
+    border-color: black; /* Change border color on hover */
+} 
+/* portfolio complete */
+
+/* project detail page styling */
+.project-detail-section{
+    padding: 20px;
+    margin: 20px;
+}
+
+.proj-img{
+    height: 40%;
+    width: 80%;
+    margin: 20px;
+}
+
+.container3 h1{
+    font-weight: bold;
+    color: #800020;
+}
+
+.container3 p{
+    font-size: 18px;
+    color: black;
+    margin: 20px;
+    text-align: justify;
+}
+
+.container3 h2{
+    margin: 20px;
+    font-size: 40px;
+    color: #006666;
+    font-weight: bold;
+}

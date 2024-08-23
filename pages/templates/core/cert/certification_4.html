@@ -1,0 +1,30 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+
+{% block title %}Basic Learn Django{% endblock %}
+
+{% block content %}
+<section class="certification-detail-section">
+    <div class="container2">
+        <h1>Basic Learn Django</h1>
+        <img src="{% static 'images/user/4.png' %}" alt="Basic Learn Django" class="certification-image">
+        
+        <p><strong style="color: #800020;">Issued By:</strong> <strong>Infosys Springboard</strong></p>
+        
+        <p><strong style="color: #800020;">Description:</strong></p>
+        <p>
+            I have successfully completed the <strong>"Basic Learn Django"</strong> course offered by <strong>Infosys Springboard</strong>. This course provided a comprehensive introduction to <strong>Django</strong>, a widely-used web framework for developing robust web applications.
+
+            <br><br>
+            
+            Through the program, I gained foundational knowledge of Django’s core concepts and practices. A key component of the course was a hands-on project where I developed a <strong>Students Database App</strong>. This project allowed me to apply the theoretical knowledge gained during the course to a practical scenario, enhancing my skills in writing and debugging Django application code.
+
+            <br><br>
+            
+            By working on this project, I developed a deeper understanding of Django's functionality, including <strong>models, views, and templates</strong>, and how they work together to build dynamic web applications. The course not only solidified my understanding of Django’s framework but also equipped me with valuable experience in developing and managing web applications, reinforcing my learning through practical application.
+        </p>
+        
+        <a href="{% url 'pages:home' %}" class="view-details-btn">Back to Home</a>
+    </div>
+</section>
+{% endblock %}

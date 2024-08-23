@@ -1,0 +1,37 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+
+{% block title %}Databases and SQL for Data Science with Python{% endblock %}
+
+{% block content %}
+<section class="certification-detail-section">
+    <div class="container2">
+        <h1>Databases and SQL for Data Science with Python</h1>
+        <img src="{% static 'images/user/5.png' %}" alt="Databases and SQL for Data Science with Python" class="certification-image">
+
+        <p><strong style="color: #800020;">Issued By:</strong> <strong>IBM</strong></p>
+        
+        <p><strong style="color: #800020;">Description:</strong></p>
+        <p>
+            I have successfully completed the <strong>"Databases and SQL for Data Science with Python"</strong> course offered by <strong>IBM</strong> on the Coursera platform through <strong>Infosys Springboard</strong>. This intensive program provided a comprehensive understanding of <strong>database management</strong> and <strong>SQL techniques</strong> essential for data science.
+
+            <br><br>
+
+            The course covered a wide range of topics, including:
+
+            <br><br>
+            
+            - <strong>Analyzing data within a database using SQL and Python</strong>. <br>
+            - <strong>Creating relational databases</strong> and managing multiple tables with <strong>Data Definition Language (DDL)</strong> commands. <br>
+            - <strong>Constructing basic to intermediate SQL queries</strong> with <strong>Data Manipulation Language (DML)</strong> commands. <br>
+            - <strong>Composing advanced queries</strong> utilizing techniques such as views, transactions, stored procedures, and joins.
+
+            <br><br>
+
+            Throughout the course, I gained hands-on experience with various tools and techniques, including <strong>Python programming, cloud databases, and relational database management systems (RDBMS)</strong>. I also worked extensively with SQL and Jupyter notebooks, reinforcing my learning through practical application and real-world scenarios. This program enhanced my skills in <strong>data analysis, database design, and advanced SQL querying</strong>, equipping me with the expertise needed to handle complex data challenges effectively.
+        </p>
+        
+        <a href="{% url 'pages:home' %}" class="view-details-btn">Back to Home</a>
+    </div>
+</section>
+{% endblock %}
