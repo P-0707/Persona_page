@@ -1,0 +1,43 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+
+{% block title %}Culinary Collections{% endblock %}
+
+{% block content %}
+<section class="project-detail-section">
+    <div class="container3">
+        <h1>Culinary Collections</h1>
+        <img src="{% static 'images/user/p4.jpeg' %}" alt="Culinary Collections" class="proj-img">
+        
+        <h2>Description!</h2>
+        <p>
+            <strong>Culinary Collections</strong> is a comprehensive web-based platform that serves as a digital cookbook for food enthusiasts. Built using the Django framework, this project showcases a collection of diverse recipes, each carefully curated with details on ingredients, preparation methods, and cooking times.
+
+            <br><br>
+
+            The application allows users to browse featured recipes, each represented by a card displaying an image, title, and a brief description. Users can explore recipes in more detail by clicking a "View Recipe" button, which leads to a dedicated page containing <strong>full instructions, ingredients, preparation and cook time, and servings</strong>. Additionally, a recipe image is provided to visually assist users.
+
+            <br><br>
+
+            The project emphasizes clean, responsive design, ensuring a smooth user experience across different devices. The layout is structured with a clear separation of sections, including a <strong>home page</strong> that introduces users to the collection, a dedicated section for <strong>featured recipes</strong>, and an <strong>about us</strong> section that highlights the platform's goals and values.
+
+            <br><br>
+
+            Each recipe page is enriched with detailed content, including an image and all essential information needed to prepare the dish. Users can seamlessly navigate back to the homepage or explore other recipes.
+
+            <br><br>
+
+            While this version of Culinary Collections offers a user-friendly interface, future enhancements could include the ability to <strong>search for recipes</strong>, sort by <strong>categories</strong>, add user-generated content, and even <strong>rate or comment on recipes</strong> to foster a community of food lovers.
+
+            <br><br>
+
+            This project demonstrates a solid understanding of Django's core features, including template inheritance, model relationships, and media handling.
+
+            <br><br>
+
+            You can explore the source code for this project on 
+            <a href="https://github.com/P-0707/culinaryCollections" target="_blank" rel="noopener noreferrer">GitHub</a>.
+        </p>
+    </div>
+</section>
+{% endblock %}
