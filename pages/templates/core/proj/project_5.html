@@ -1,0 +1,42 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+
+{% block title %}Data Science Career Trends Analysis{% endblock %}
+
+{% block content %}
+<section class="project-detail-section">
+    <div class="container3">
+        <h1>Data Science Career Trends Analysis</h1>
+        <img src="{% static 'images/user/p5.png' %}" alt="Data Science Career Trends Analysis" class="proj-img">
+
+        <h2>Description!</h2>
+        <p>
+            <strong>Data Science Career Trends Analysis</strong> is an in-depth analytical project focused on exploring employment trends within the data science industry. By using a publicly available dataset from Kaggle, this project examines the key factors influencing data science careers, including salary, experience level, company size, and remote work policies.
+
+            <br><br>
+
+            The project was carried out using <strong>Python for data processing</strong> and <strong>Power BI for visualization</strong>. Through data cleaning, enrichment, and transformation, the analysis provides standardized salary data in USD, insights into remote work flexibility, and a comparison of company sizes based on compensation structures.
+
+            <br><br>
+
+            The dashboard presents a variety of visualizations to highlight insights, such as:
+            - **Average Salary by Experience Level and Company Size**: Visualizes how compensation increases with experience and company scale.
+            - **Remote Work Patterns**: Shows remote work ratios and trends across different experience levels, indicating a preference for remote work in small organizations and senior roles.
+            - **Geographical Salary Distribution**: A heatmap displaying average salaries by employee residence and company location, showcasing regional disparities.
+
+            <br><br>
+
+            Designed to assist both <strong>employers and professionals</strong> in understanding employment trends, this project offers recommendations for salary structuring, remote work policies, and career planning. The analysis emphasizes the dynamic nature of data science careers, with insights valuable to those navigating the evolving job market.
+
+            <br><br>
+
+            This project is available for exploration on GitHub, where you can view the source code and interactive dashboard, providing a comprehensive look at the analysis behind global data science employment trends.
+
+            <br><br>
+
+            View the source code and explore the Power BI dashboard on
+            <a href="https://github.com/P-0707/DataScienceTrends" target="_blank" rel="noopener noreferrer">GitHub</a>.
+        </p>
+    </div>
+</section>
+{% endblock %}
