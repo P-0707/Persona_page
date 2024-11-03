@@ -8,7 +8,35 @@
     <div class="container">
         <h2>My Projects</h2>
         <div class="portfolio-grid">
-            <!-- Project 1 -->
+            <!-- Project 5 - Data Science Career Trends Analysis (New Project) -->
+            <div class="portfolio-item">
+                <div class="portfolio-image">
+                    <img src="{% static 'images/user/p5.png' %}" alt="Data Science Career Trends Analysis">
+                </div>
+                <div class="portfolio-details">
+                    <h3>Data Science Career Trends Analysis</h3>
+                    <p class="limited-text">
+                        This project explores global trends in data science careers, analyzing factors like salary, company size, experience level, and remote work policies. Using Python and Power BI, it provides interactive visualizations and insights into career patterns.
+                    </p>
+                    <a href="{% url 'pages:project_detail' 5 %}" class="view-details-btn">View Details</a>
+                </div>
+            </div>
+
+            <!-- Project 4 - Culinary Collections -->
+            <div class="portfolio-item">
+                <div class="portfolio-image">
+                    <img src="{% static 'images/user/p4.jpeg' %}" alt="Project 4">
+                </div>
+                <div class="portfolio-details">
+                    <h3>Culinary Collections</h3>
+                    <p class="limited-text">
+                        Culinary Collections is a comprehensive web-based platform that serves as a digital cookbook for food enthusiasts. It offers diverse recipes, complete with details on ingredients, preparation methods, and cooking times.
+                    </p>
+                    <a href="{% url 'pages:project_detail' 4 %}" class="view-details-btn">View Details</a>
+                </div>
+            </div>
+
+            <!-- Project 1 - Django Student Database Management System -->
             <div class="portfolio-item">
                 <div class="portfolio-image">
                     <img src="{% static 'images/user/p1.png' %}" alt="Project 1">
@@ -21,7 +49,8 @@
                     <a href="{% url 'pages:project_detail' 1 %}" class="view-details-btn">View Details</a>
                 </div>
             </div>
-            <!-- Project 2 -->
+
+            <!-- Project 2 - PDFPedia Book Organizer App -->
             <div class="portfolio-item">
                 <div class="portfolio-image">
                     <img src="{% static 'images/user/p2.png' %}" alt="Project 2">
@@ -34,7 +63,8 @@
                     <a href="{% url 'pages:project_detail' 2 %}" class="view-details-btn">View Details</a>
                 </div>
             </div>
-            <!-- Project 3 -->
+
+            <!-- Project 3 - QuoteMaster: Personalized Quote Generator -->
             <div class="portfolio-item">
                 <div class="portfolio-image">
                     <img src="{% static 'images/user/p3.png' %}" alt="Project 3">
@@ -45,19 +75,6 @@
                         QuoteMaster is an engaging and personalized quote generator application meticulously developed using Python and the Tkinter library.
                     </p>
                     <a href="{% url 'pages:project_detail' 3 %}" class="view-details-btn">View Details</a>
-                </div>
-            </div>
-            <!-- Project 4 -->
-            <div class="portfolio-item">
-                <div class="portfolio-image">
-                    <img src="{% static 'images/user/p4.jpeg' %}" alt="Project 4">
-                </div>
-                <div class="portfolio-details">
-                    <h3>Culinary Collections</h3>
-                    <p class="limited-text">
-                        Culinary Collections is a comprehensive web-based platform that serves as a digital cookbook for food enthusiasts. It offers diverse recipes, complete with details on ingredients, preparation methods, and cooking times.
-                    </p>
-                    <a href="{% url 'pages:project_detail' 4 %}" class="view-details-btn">View Details</a>
                 </div>
             </div>
         </div>
